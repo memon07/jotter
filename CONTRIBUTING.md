@@ -1,92 +1,66 @@
-# Contributing
+## Contributing to React Starter Kit
 
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. 
+React Starter Kit is currently the most widely adopted Node.js/React boilerplate used by many
+tech startups around the globe. We're working hard to keep it up to date, making sure that it
+follows best practices and high coding standards, paying extremely close attention to details.
 
-Please note we have a code of conduct, please follow it in all your interactions with the project.
+Your contributions are welcome and are greatly appreciated! Every little bit helps, and credit
+will always be given.
 
-## Pull Request Process
+Please take a moment to review this document in order to make the contribution process easy and
+effective for everyone involved.
 
-1. Ensure any install or build dependencies are removed before the end of the layer when doing a 
-   build.
-2. Update the README.md with details of changes to the interface, this includes new environment 
-   variables, exposed ports, useful file locations and container parameters.
-3. Increase the version numbers in any examples files and the README.md to the new version that this
-   Pull Request would represent.
-4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you 
-   do not have permission to do that, you may request the second reviewer to merge it for you.
+### Conduct
 
-## Code of Conduct
+Please, follow the [golden rule](https://en.wikipedia.org/wiki/Golden_Rule). Be respectful, even to
+those that are disrespectful.
 
-### Our Pledge
+### Feedback
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to making participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, gender identity and expression, level of experience,
-nationality, personal appearance, race, religion, or sexual identity and
-orientation.
+Feedback is the breakfast for champions! We'd love to hear your opinions, discuss potential
+improvements, architecture, theory, internal implementation, etc. Please, join or start a new
+conversation in our [issue tracker](https://github.com/kriasoft/react-starter-kit/issues),
+[Gitter](https://gitter.im/kriasoft/react-starter-kit) chat room, or let's talk face-to-face on
+[Appear.in](https://appear.in/react) or [Skype](http://hatscripts.com/addskype?koistya).
 
-### Our Standards
+### Documentation
 
-Examples of behavior that contributes to creating a positive environment
-include:
+We need your help with improving documentation to the project. This might be the easiest way for
+you to contribute, because you don't even need to clone the repo but can edit or create new `.md`
+files right from GitHub website as described [here](https://help.github.com/articles/editing-files-in-your-repository/).
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+### Bugs & Feature Requests
 
-Examples of unacceptable behavior by participants include:
+Before opening an issue, please:
 
-* The use of sexualized language or imagery and unwelcome sexual attention or
-advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+- Check the [Getting Started](https://github.com/kriasoft/react-starter-kit/blob/master/docs/getting-started.md) guide.
+- Search the [issue tracker](https://github.com/kriasoft/react-starter-kit/issues) to make sure
+  your issue hasn’t already been reported.
+- If your issue sounds more like a question, please post it on StackOverflow.com instead with the
+  tag [react-starter-kit](http://stackoverflow.com/questions/tagged/react-starter-kit).
 
-### Our Responsibilities
+### Pull Requests
 
-Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behavior.
+Before you submit a [pull request](https://help.github.com/articles/using-pull-requests/) from your
+forked repo, check that it meets these guidelines:
 
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
+- If the pull request adds functionality, the docs should be updated as part of the same PR.
+- Create a separate PR for each small feature or bug fix.
+- [Squash](http://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git)
+  your commits into one for each PR.
+- Run `yarn test` to make sure that your code style is OK and there are no any regression bugs.
+- When contributing to an opt-in feature, apply the `[feature/...]` tag as a prefix to your PR title
 
-### Scope
+#### Style Guide
 
-This Code of Conduct applies both within project spaces and in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an appointed
-representative at an online or offline event. Representation of a project may be
-further defined and clarified by project maintainers.
+Our linter will catch most styling issues that may exist in your code. You can check the status
+of your code styling by simply running: `yarn lint`
 
-### Enforcement
+However, there are still some styles that the linter cannot pick up. If you are unsure about
+something, looking at [Airbnb's Style Guide](https://github.com/airbnb/javascript) will guide you
+in the right direction.
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at shoyeb07@outlook.com/memonshoyeb26@gmail.com. All
-complaints will be reviewed and investigated and will result in a response that
-is deemed necessary and appropriate to the circumstances. The project team is
-obligated to maintain confidentiality with regard to the reporter of an incident.
-Further details of specific enforcement policies may be posted separately.
+### License
 
-Project maintainers who do not follow or enforce the Code of Conduct in good
-faith may face temporary or permanent repercussions as determined by other
-members of the project's leadership.
-
-### Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at [http://contributor-covenant.org/version/1/4][version]
-
-[homepage]: http://contributor-covenant.org
-[version]: http://contributor-covenant.org/version/1/4/
+By contributing to React Starter Kit, you agree that your contributions will be licensed under its
+[MIT license](https://github.com/kriasoft/react-starter-kit/blob/master/LICENSE.txt).
