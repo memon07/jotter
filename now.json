@@ -1,0 +1,13 @@
+{
+  "name": "jotter",
+  "public": true,
+  "version": 0.1,
+  "builds": [{
+    "src": "next.config.js",
+    "use": "@now/next"
+  }],
+  "alias": "jotter.now.sh",
+  "env": {
+    "GITHUB_API_ENDPOINT": "https://api.github.com"
+  }
+}

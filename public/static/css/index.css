@@ -1,0 +1,169 @@
+.site {
+    padding-top: 75px;
+}
+
+.index-main__text {
+    padding-top:70px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.index-main__subtext {
+    padding-bottom: 30px;
+}
+
+.index-main__joinbtn {
+    height: 60px !important;
+    padding: 0 40px !important;
+}
+
+.index-main__secondtext {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.flix-features-img {
+    width: 90px;
+}
+
+.flix-features-img-2 {
+    width: 95px;
+}
+
+
+.flix-features-div {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.index-main__googleplay {
+    text-align: center;
+    padding: 90px 0;
+    background-color: #ff4a5a;
+    color: #2c3039;
+}
+
+.index-main__googleplay h2{
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.index-main__googleplay h2:first-child{
+    margin-bottom: 0 !important;
+    padding-bottom: 0;
+}
+
+.index-main__job h3{
+    font-size: 35px;
+    font-weight: 700;
+    color: #2c3039;
+}
+
+.index-main__job h4 {
+    font-size: 16px;
+}
+
+.index-main__wfyc {
+    padding: 90px 0;
+}
+
+.index-main__jobcard {
+    margin-bottom: 30px !important;
+}
+
+.index-main__audition {
+    color: #2c3039;
+    padding-bottom: 60px;
+}
+
+.index-main__audition h3{
+    font-size: 35px;
+    font-weight: 700;
+    color: #2c3039;
+}
+
+
+.index-main__audition h4{
+    font-size: 16px;
+}
+
+.index-main__audition p{
+    padding-bottom: 25px;
+}
+
+.index-main__about {
+    background: rgb(44,48,57);
+    background: linear-gradient(90deg, rgba(44,48,57,1) 70%, rgba(255,255,255,1) 70%);
+    margin-bottom: 60px;
+}
+
+.index-main__about h3{
+    color: #ff4a5a;
+    font-size: 35px;;
+}
+
+.index-main__about p{
+    color: #bcbbbd;
+}
+
+.index-about__div {
+    padding: 80px 0;;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media (max-width:768px) {
+    .index-main__text {
+        padding-top:30px;
+        font-size: 1.5em;
+    }
+    
+    .index-main__joinbtn {
+        height: 50px !important;
+        padding: 0 30px !important;
+    }
+
+    .index-main__secondtext {
+        font-size: 25px;
+    }
+
+    .index-main__googleplay h2{
+        font-size: 25px;
+    }
+
+    .index-main__about {
+        background: rgb(44,48,57);
+        background: linear-gradient(90deg, rgba(44,48,57,1) 100%, rgba(44,48,57,1) 100%);
+    }
+        
+}
+
+@media (max-width:425px) {
+    .index-main__text {
+        padding-top:1px;
+    }
+
+    .index-main__h1 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    .index-main__googleplay h2{
+        font-size: 23px;
+    }
+
+       
+    .index-main__wfyc {
+        padding: 30px 0;
+    }
+}
+
+@media (max-width:375px) {   
+    .index-main__googleplay h2{
+        font-size: 20px;
+    }
+}
